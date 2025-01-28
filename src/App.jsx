@@ -1,10 +1,16 @@
 import React from 'react'
-import Navbar from './components/Navbar/Navbar'
+import Navbar from './components/Navbar'
+import HeroSection from './components/HeroSection'
+import About from './components/About'
+import Services from './components/Services'
+
 const App = () => {
   return (
-    <div className='  min-h-screen font-["Satoshi"] text-white bg-zinc-900 '>
+    <div className=' font-["Satoshi"] text-white  bg-zinc-900 h-screen '>
       <Navbar />
-      
+      <HeroSection />
+      <About />
+      <Services />
     </div>
   )
 }
