@@ -30,17 +30,41 @@ const Bio = ({ name, bio, philosophy, mission, photo }) => {
             <motion.h3 className="text-2xl font-semibold text-yellow-500 mb-6">
               Short Bio
             </motion.h3>
-            <p className="text-gray-300 leading-relaxed mb-6">{bio}</p>
+            <p className="text-gray-300 leading-relaxed mb-6">
+              {bio}
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-6">
+              With years of experience in astrology, {name} has guided numerous individuals toward clarity and enlightenment. Specializing in Vedic astrology, numerology, and horoscope analysis, {name} blends ancient wisdom with modern insights to provide comprehensive astrological solutions.
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-6">
+              Having studied under renowned astrologers and delved deep into celestial movements, {name} has developed a keen understanding of planetary influences and their impact on human lives. Their personalized approach ensures each reading is unique and deeply insightful.
+            </p>
 
             <motion.h3 className="text-2xl font-semibold text-yellow-500 mb-6">
               Philosophy
             </motion.h3>
-            <p className="text-gray-300 leading-relaxed mb-6">{philosophy}</p>
+            <p className="text-gray-300 leading-relaxed mb-6">
+              {philosophy}
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-6">
+              {name} believes that astrology is not about predicting an unchangeable fate but about empowering individuals with knowledge. By understanding cosmic energies, people can make informed decisions and shape their own destinies.
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-6">
+              Every planetary alignment offers an opportunity for growth and transformation. Through careful analysis and intuitive guidance, {name} aims to illuminate these opportunities for their clients, helping them align their lives with their higher purpose.
+            </p>
 
             <motion.h3 className="text-2xl font-semibold text-yellow-500 mb-6">
               Mission
             </motion.h3>
-            <p className="text-gray-300 leading-relaxed">{mission}</p>
+            <p className="text-gray-300 leading-relaxed mb-6">
+              {mission}
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-6">
+              The mission of {name} is to bridge the gap between traditional astrology and contemporary life. Through in-depth consultations, workshops, and online sessions, they aim to make astrological wisdom accessible to all.
+            </p>
+            <p className="text-gray-300 leading-relaxed">
+              By guiding individuals through life’s uncertainties with compassion and expertise, {name} seeks to bring peace, purpose, and prosperity to everyone they assist. The ultimate goal is to inspire self-awareness, resilience, and a deep connection with the universe.
+            </p>
           </div>
         </div>
       </div>
